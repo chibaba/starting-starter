@@ -1,0 +1,126 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px
+}
+.camel{
+    text-align: center
+}
+
+.navbar {
+    background-color: rgba(51, 50, 50, 0.8);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around
+}
+.navbar logo-text{
+    color: blue;
+    font-size: 2rem;
+    text-align: left
+}
+
+.navbar input {
+    background-color: #000;
+    border-width: 0px;
+    color: #fff;
+    padding: 5px;
+    padding-left: 10px
+}
+
+.navbar ::placeholder {
+    color: #fff
+}
+
+.jumbotron {
+    background: url("./assets/img_hero.jpg") no-repeat;
+    background-size: 100%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron .header_text {
+    text-align: center;
+    color: #fff
+}
+
+.hero_images_container {
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.hero_images_container div {
+    display: flex
+}
+
+.hero_images_container div .thumbnail {
+    border-radius: 60%;
+    margin: 0px 10px
+}
+
+.home_content {
+    padding: 50px;
+    margin: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home_content .home_header {
+    color: goldenrod;
+    font-size: 2rem
+}
+
+.footer_heroes {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center   
+}
+
+.footer_heroes .heroes_with_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer_heroes .heroes_with_details .thumbnail {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.footer_heroes .heroes_with_details div p {
+    margin: 0;
+}
+.footer_heroes .heroes_with_details div h4 {
+    margin: 0;
+    color: goldenrod
+}
+
+.footer_container {
+    border-top-width: 10px;
+    border-top-color: goldenrod;
+    border-top-style: solid;
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_container div h3 {
+    color: goldenrod;
+    margin-bottom: 5px
+}
+
+.footer_container div h4 {
+    margin: 0px
+}
